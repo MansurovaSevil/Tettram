@@ -1,0 +1,144 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!-- page title begin-->
+<div class="page-title contact-page">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-8">
+                <h2>Contact Us</h2>
+                <p>Enjoy real benefits and rewards on your accrue investing.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page title end -->
+
+
+
+    <!-- contact begin-->
+<section class="address-area">
+        <div class="container">
+            <div class="tsk-contact-info">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="contact-info-item">
+                            <div class="icon-bar">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-details">
+                                <h5>Our Address</h5>
+                                <p>795 NY USA, Suite 94107</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="contact-info-item">
+                            <div class="icon-bar">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-details">
+                                <h5>Email Address</h5>
+                                <a href="mailto:info@example.com">info@example.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="contact-info-item">
+                            <div class="icon-bar">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="info-details">
+                                <h5>Phone Number</h5>
+                                <a href="tel:+8801234567890">+88 (0)123 - 456 7890</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </>
+    <div class="google-map" id="map"></div>
+    <div class="contact ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-form-outer">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8 col-lg-8">
+                                <div class="section-title text-center">
+                                    <h2>Contact Us For <span>Support</span></h2>
+                                    <p>
+                                        Put your investing ideas into action with full range of investments.
+                                        Enjoy real benefits and rewards on your accrue investing.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12">
+                                <form class="contact-form">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-6">
+                                            <div class="form-group">
+                                                <label for="InputName">Name<span class="requred">*</span></label>
+                                                <input type="text" class="form-control" id="InputName" placeholder="Enter Your Name"
+                                                       required>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6">
+                                            <div class="form-group">
+                                                <label for="InputMail">E-mail<span class="requred">*</span></label>
+                                                <input type="email" class="form-control" id="InputMail" placeholder="Enter Your E-mail Address"
+                                                       required>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6">
+                                            <div class="form-group">
+                                                <label for="InputPhone">Phone<span class="requred">*</span></label>
+                                                <input type="text" class="form-control" id="InputPhone" placeholder="Enter Your Phone Number"
+                                                       required>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6">
+                                            <div class="form-group">
+                                                <label for="InputSubject">Subject<span class="requred">*</span></label>
+                                                <input type="text" class="form-control" id="InputSubject" placeholder="Enter Your Subject"
+                                                       required>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 col-lg-12">
+                                            <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">Meassage<span class="requred">*</span></label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Your Meassage"
+                                                          required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 col-lg-12">
+                                            <button type="submit">Send Now</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- contact end -->
+</section>
+
+@section scripts{
+    
+      <!-- google map API -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqFuLx8S7A8eianoUhkYMeXpGPvsXp1NM&amp;callback=initMap" async defer></script>
+<!-- google map activate -->
+<script src="~/Public/js/goolg-map-activate.js"></script>
+    
+    }
